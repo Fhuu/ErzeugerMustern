@@ -1,4 +1,4 @@
 package AbstrakteFabrikMethode;
 
-public class interface IAbstraktesProduktA {
+public interface IAbstraktesProduktA {
 }

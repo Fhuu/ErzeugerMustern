@@ -1,4 +1,12 @@
 package AbstrakteFabrikMethode;
 
-public class implements KonkreteFabrik2 {
+public class KonkreteFabrik2 implements IAbstrakteFabrik {
+
+    public IAbstraktesProduktA erzeugeProduktA() {
+        return null;
+    }
+
+    public IAbstraktesProduktB erzeugeProduktB() {
+        return null;
+    }
 }

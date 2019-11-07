@@ -1,4 +1,6 @@
 package AbstrakteFabrikMethode;
 
-public class interface IAbstrakteFabrik {
+public interface IAbstrakteFabrik {
+    public IAbstraktesProduktA erzeugeProduktA();
+    public IAbstraktesProduktB erzeugeProduktB();
 }
