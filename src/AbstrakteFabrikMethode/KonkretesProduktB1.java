@@ -1,4 +1,4 @@
 package AbstrakteFabrikMethode;
 
-public class KonkretesProduktB1 {
+public class implements KonkretesProduktB1 {
 }
