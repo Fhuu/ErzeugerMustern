@@ -1,6 +1,6 @@
 package FabrikMethode;
 
-public class KonkretesErzeugerB implements Erzeuger{
+public class KonkreterErzeugerB implements Erzeuger{
 
 
     @Override

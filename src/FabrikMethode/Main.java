@@ -9,7 +9,7 @@ public class Main {
         p = e.fabrikMehtode();
         System.out.println(p.print());
 
-        e = new KonkretesErzeugerB();
+        e = new KonkreterErzeugerB();
         p = e.fabrikMehtode();
         System.out.println(p.print());
     }
