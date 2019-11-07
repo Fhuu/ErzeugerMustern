@@ -5,11 +5,11 @@ public class KonkreterErzeugerB implements Erzeuger{
 
     @Override
     public void operation() {
-        fabrikMehtode();
+        fabrikMethode();
     }
 
     @Override
-    public Produkt fabrikMehtode() {
+    public Produkt fabrikMethode() {
         return new KonkretesProduktB();
     }
 }
