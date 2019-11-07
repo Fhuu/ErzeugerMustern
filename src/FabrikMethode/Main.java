@@ -1,5 +1,6 @@
 package FabrikMethode;
-//dies ist ein kommentar
+
+
 public class Main {
     private static Erzeuger e = null;
     private static Produkt p = null;
