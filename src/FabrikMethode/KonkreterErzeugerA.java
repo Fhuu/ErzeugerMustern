@@ -3,11 +3,11 @@ package FabrikMethode;
 public class KonkreterErzeugerA implements Erzeuger {
 
     public void operation() {
-        fabrikMehtode();
+        fabrikMethode();
     }
 
     @Override
-    public Produkt fabrikMehtode() {
+    public Produkt fabrikMethode() {
         return new KonkretesProduktA();
     }
 }

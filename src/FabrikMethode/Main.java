@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         e = new KonkreterErzeugerA();
-        p = e.fabrikMehtode();
+        p = e.fabrikMethode();
         System.out.println(p.print());
 
         e = new KonkreterErzeugerB();
-        p = e.fabrikMehtode();
+        p = e.fabrikMethode();
         System.out.println(p.print());
     }
 }
