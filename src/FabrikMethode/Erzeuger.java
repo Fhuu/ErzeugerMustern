@@ -1,8 +1,10 @@
 package FabrikMethode;
 
-public interface Erzeuger {
+public abstract class Erzeuger {
 
-    public void operation();
-    public Produkt fabrikMethode();
+    public  void operation() {
+        fabrikMethode();
+    }
+    public abstract Produkt fabrikMethode();
 
 }

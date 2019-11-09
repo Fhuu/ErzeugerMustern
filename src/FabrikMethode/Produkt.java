@@ -1,6 +1,6 @@
 package FabrikMethode;
 
-public interface Produkt {
+public abstract class Produkt {
 
-    public String print();
+    public abstract String print();
 }

@@ -1,6 +1,6 @@
 package FabrikMethode;
 
-public class KonkretesProduktB implements Produkt {
+public class KonkretesProduktB extends Produkt {
     @Override
     public String print() {
         return "Konkretes Produkt B würde erzeugt.";

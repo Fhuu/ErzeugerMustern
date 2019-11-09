@@ -1,12 +1,6 @@
 package FabrikMethode;
 
-public class KonkreterErzeugerB implements Erzeuger{
-
-
-    @Override
-    public void operation() {
-        fabrikMethode();
-    }
+public class KonkreterErzeugerB extends Erzeuger{
 
     @Override
     public Produkt fabrikMethode() {
