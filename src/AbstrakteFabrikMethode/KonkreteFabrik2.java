@@ -3,10 +3,10 @@ package AbstrakteFabrikMethode;
 public class KonkreteFabrik2 implements IAbstrakteFabrik {
 
     public IAbstraktesProduktA erzeugeProduktA() {
-        return null;
+        return new KonkretesProduktA2();
     }
 
     public IAbstraktesProduktB erzeugeProduktB() {
-        return null;
+        return new KonkretesProduktB2();
     }
 }
