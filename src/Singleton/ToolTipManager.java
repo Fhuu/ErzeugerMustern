@@ -9,8 +9,8 @@ public class ToolTipManager {
     }
 
     public static ToolTipManager getInstance() {
-        if(instance != null) return instance;
-        else return new ToolTipManager();
+        if(instance == null) instance = new ToolTipManager();
+        return instance;
     }
 
     public String operation () {
