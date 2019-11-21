@@ -2,10 +2,10 @@ package Singleton;
 
 public class ToolTipManager3 {
 
-    private static ToolTipManager3 instance;
+    private static ToolTipManager3 instance = new ToolTipManager3();
 
     private ToolTipManager3() {
-        System.out.println("Neues Singleton erzeugt.");
+        System.out.println("ToolTipManager3 erzeugt.");
     }
 
     public static ToolTipManager3 getInstance() {
