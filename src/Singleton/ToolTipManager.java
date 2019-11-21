@@ -8,7 +8,7 @@ public class ToolTipManager {
         System.out.println("Neues Singleton erzeugt.");
     }
 
-    public static ToolTipManager getInstance() {
+    synchronized public static ToolTipManager getInstance() {
         if(instance == null) instance = new ToolTipManager();
         return instance;
     }

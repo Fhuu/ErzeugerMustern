@@ -13,13 +13,13 @@ public class SingletonThreadTest extends Thread {
         try {
             Thread.sleep(500);
             System.out.println(threadName + " - call 1");
-            ToolTipManager2.getInstance().operation();
+            ToolTipManager.getInstance().operation();
             Thread.sleep(500);
             System.out.println(threadName + " - call 2");
-            ToolTipManager2.getInstance().operation();
+            ToolTipManager.getInstance().operation();
             Thread.sleep(500);
             System.out.println(threadName + " - call 3");
-            ToolTipManager2.getInstance().operation();
+            ToolTipManager.getInstance().operation();
         } catch (InterruptedException ie) {
             System.out.println(threadName + " - interupted.");
         }
